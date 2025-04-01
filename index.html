@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PingPhantom - Ultimate Fake Ping Generator</title>
+    <meta name="description" content="PingPhantom is the ultimate fake ping generator for Discord servers. Upload your server image and add a sleek fake ping overlay for April Fools and beyond.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PingPhantom</h1>
+        <p>Fake Ping Generator for Discord Servers.</p>
+        <p>Upload your server image to add a sleek fake ping overlay.</p>
+        <input type="file" id="upload" accept="image/*">
+        <div id="preview-container">
+            <div id="logo-container">
+                <img id="server-logo" src="" alt="Server Logo">
+                <img id="fake-ping" src="fake-ping.png" alt="Fake Ping">
+            </div>
+        </div>
+        <button id="save-btn">Save Image</button>
+        <canvas id="canvas" style="display:none;"></canvas>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
